@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "postbuild": "echo www.tbbrewing.com > dist/tvabroderbrewing/CNAME && echo 'CNAME file created!'",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
